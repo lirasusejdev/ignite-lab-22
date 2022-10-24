@@ -20,12 +20,12 @@ export default {
 export const Default: StoryObj<HeadingProps> = {}
 export const Small: StoryObj<HeadingProps> = {
   args: {
-    size: 'sm'
+    size: 'sm | md | lg'
   }
 }
 export const Large: StoryObj<HeadingProps> = {
   args: {
-    size: 'lg'
+    size: 'sm | md | lg'
   }
 }
 export const CustomComponent: StoryObj<HeadingProps> = {
