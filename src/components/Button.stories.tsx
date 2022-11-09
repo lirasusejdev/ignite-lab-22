@@ -5,7 +5,7 @@ export default {
   title: 'Components/Button',
   component: Button,
   args: {
-    children: 'Hello World'
+    children: 'Hello GB'
   },
   argTypes: {}
 } as Meta<ButtonProps>
